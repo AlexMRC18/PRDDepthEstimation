@@ -43,7 +43,6 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation fileTree(dir: 'C:\\Users\\reali\\AppData\\Local\\Android\\Sdk\\platforms\\android-28', include: ['*.aar', '*.jar'], exclude: [])
     supportImplementation project(":lib_support")
     taskApiImplementation project(":lib_task_api")
     implementation 'androidx.appcompat:appcompat:1.0.0'
